@@ -1,5 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
+* {
+  margin: 0 auto;
+ text-align:left;
+    padding: 0;
+}
 
 html, body {
 text-align: center;
@@ -7,19 +12,16 @@ text-align: center;
 p {text-align: left;}
 
 body {
-	margin: 0;
-	padding: 0;
+	margin: 0 auto;
+	padding: 0 auto;
 	background: #697281;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
 	color: #F1F5F8;
-	background-color:#697281;
+	background-color:beige;
 }
 
-* {
-  margin: 0 auto 0 auto;
- text-align:left;
-}
+
 
 #page {
   margin: 0 auto 0 auto; 
@@ -72,8 +74,6 @@ height:53px;
 width:750px;
     padding-bottom:50px;
     
-
-
 }
 
 
@@ -82,7 +82,7 @@ width:750px;
 position:relative;
 top:16px;
 margin-left:45px;
-color:#FFFFFF;
+color:coral;
 text-align:center;
 font-size:15px;
 float:left;
@@ -140,7 +140,7 @@ width: 750px;
 height:49px;
 background: url(https://www.html.am/templates/downloads/bryantsmith/creativeinspiration_nav/footer.png) no-repeat;
 text-align:center;
-font-size:9px;
+font-size:11px;
 color:#223F8D;
 padding-top:36px;
 }
