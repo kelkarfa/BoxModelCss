@@ -9,11 +9,17 @@
 html, body {
 text-align: center;
 }
-p {text-align: left;}
+p {
+    text-align: left;
+        margin: 5px;
+        padding: 5px;
+
+
+}
 
 body {
-	margin: 0 auto;
-	padding: 0 auto;
+	    margin: 20px auto;
+	    padding: 10px auto;
 	background: #697281;
 	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
 	font-size: 13px;
